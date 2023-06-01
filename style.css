@@ -1,0 +1,121 @@
+body {
+  font-family: "Comic Sans MS", cursive;
+  margin: 0;
+  padding: 0;
+  background-color: #cc9ad8;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.start-screen,
+.end-screen,
+.high-scores {
+  display: none;
+}
+
+.start-btn,
+.submit-btn {
+  background-color: #ff5c4d;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 14px 30px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.start-btn:hover,
+.submit-btn:hover {
+  background-color: #33ff8b;
+}
+
+.question {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.choices {
+  margin-bottom: 40px;
+}
+
+.choice {
+  display: block;
+  background-color: #4d88ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  padding: 16px 40px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.choice:hover {
+  background-color: #ff33cc;
+}
+
+.timer {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 40px;
+}
+
+.end-message {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.score-form {
+  margin-top: 40px;
+}
+
+.score-form label {
+  font-size: 24px;
+  color: #333;
+}
+
+.score-form input[type="text"] {
+  font-size: 20px;
+  padding: 12px;
+  margin-bottom: 20px;
+}
+
+.scores-list {
+  list-style: none;
+  padding: 0;
+}
+
+.scores-list li {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+

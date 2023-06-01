@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fonzo Code Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <section id="start-screen" class="screen">
+      <h1 class="title">Code Quiz</h1>
+      <p>Test your coding knowledge!</p>
+      <button id="start-btn" class="start-btn">Start Quiz</button>
+    </section>
+
+    <section id="question-screen" class="screen hidden">
+      <div id="question-container">
+        <h2 id="question" class="question"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+      <div class="timer-container">
+        <span class="timer-label">Timer: </span>
+        <span id="timer" class="timer"></span>
+      </div>
+    </section>
+
+    <section id="end-screen" class="screen hidden">
+      <h2>All done!</h2>
+      <p>Your final score is <span id="final-score"></span></p>
+      <form id="score-form" class="score-form">
+        <label for="initials">Enter Initials:</label>
+        <input type="text" id="initials" class="initials-input" maxlength="3" required>
+        <button type="submit" class="submit-btn">Submit</button>
+      </form>
+    </section>
+
+    <section id="high-scores" class="screen hidden">
+      <h2>High Scores</h2>
+      <ul id="scores-list" class="scores-list"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
